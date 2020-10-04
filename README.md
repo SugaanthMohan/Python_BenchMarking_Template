@@ -12,8 +12,9 @@ Mainly used an utils feature to benchmark code to see how much time is taken for
 ****
 
 ###### CONTENTS
-1. [BenchMarking decorator (In Secs)](Utils/StandardBenchMarker.py)
-
+1. [License](LICENSE)
+2. [BenchMarking decorator (In Secs)](Utils/StandardBenchMarker.py)
+3. [Test Script 1](TestScript1.py)
 ****
 
 ###### AUTHOR INFO
