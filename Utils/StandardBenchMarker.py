@@ -23,7 +23,7 @@ def benchmark_sec(function_wrapper):
         """
         start_time = time.time()
         result = function_wrapper(*args, **kwargs)
-        print("Function : %r | Args: (Positional : %r, Keyword : %r) | Elapsed Secs: %2.3f sec(s)" %
+        print("Function : %r | Args: (Positional : %r, Keyword : %r) | Elapsed Secs: %.3f sec(s)" %
               (function_wrapper.__name__, args, kwargs, time.time() - start_time)
               )
         return result
